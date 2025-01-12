@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Species Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('{{ url_for('static', filename='iris.png') }}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 500px;
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        label {
+            font-weight: bold;
+        }
+        input {
+            margin: 10px 0;
+            padding: 8px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .species-info {
+            margin-top: 20px;
+        }
+        .species {
+            margin: 10px 0;
+            padding: 10px;
+            background: #e0f7fa;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Iris Species Predictor</h1>
+        <form action="/predict" method="post">
+            <label for="sepal_length">Sepal Length:</label>
+            <input type="text" id="sepal_length" name="sepal_length" required><br>
+            <label for="sepal_width">Sepal Width:</label>
+            <input type="text" id="sepal_width" name="sepal_width" required><br>
+            <label for="petal_length">Petal Length:</label>
+            <input type="text" id="petal_length" name="petal_length" required><br>
+            <label for="petal_width">Petal Width:</label>
+            <input type="text" id="petal_width" name="petal_width" required><br>
+            <button type="submit">Predict</button>
+        </form>
+        <h2>{{ prediction_text }}</h2>
+        <div class="species-info">
+            <div class="species">
+                <strong>Setosa:</strong> Known for its short petals and sepals.
+            </div>
+            <div class="species">
+                <strong>Versicolor:</strong> Intermediate petal and sepal sizes.
+            </div>
+            <div class="species">
+                <strong>Virginica:</strong> Has the largest petals and sepals among the Iris species.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
