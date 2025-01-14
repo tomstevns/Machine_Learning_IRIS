@@ -1,4 +1,6 @@
-# Logistic Regression er en simpel metode til at lave klassifikation,
+#       *********Logistic Regression********
+#
+# er en simpel metode til at lave klassifikation,
 # altså at bestemme, hvilken kategori noget hører til.
 # I stedet for at finde en lige linje (som i lineær regression),
 # forsøger Logistic Regression at finde en "S-formet" kurve,
@@ -11,6 +13,28 @@
 
 # Det fungerer ved at beregne sandsynligheden for, at en prøve tilhører en bestemt gruppe,
 # og vælger derefter den gruppe med den højeste sandsynlighed.
+
+
+#           ****** Classification Report  ******
+#
+# er en oversigt over, hvor godt en klassifikationsmodel præsterer.
+# Det viser tre vigtige metrikker for hver kategori:
+
+# 1. Precision: Hvor mange af de forudsigelser, der blev lavet for en kategori,
+#    der faktisk var korrekte. Det svarer til, hvor "præcist" modellen rammer rigtigt.
+
+# 2. Recall: Hvor mange af de faktiske prøver fra en kategori, som modellen korrekt fandt.
+#    Det måler, hvor god modellen er til at opdage alt, der tilhører en kategori.
+
+# 3. F1-score: En kombination af precision og recall. Det er et gennemsnit,
+#    der giver et samlet billede af, hvordan modellen præsterer for en kategori.
+
+# 4. Support: Antallet af prøver i hver kategori. Det viser, hvor mange data modellen blev testet på.
+
+# Eksempel:
+# Hvis vi har tre typer Iris-blomster (Setosa, Versicolor, Virginica),
+# viser rapporten, hvordan modellen klarer sig for hver af disse typer.
+
 
 
 # Importér nødvendige biblioteker
