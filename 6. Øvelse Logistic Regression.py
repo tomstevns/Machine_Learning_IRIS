@@ -35,6 +35,40 @@
 # Hvis vi har tre typer Iris-blomster (Setosa, Versicolor, Virginica),
 # viser rapporten, hvordan modellen klarer sig for hver af disse typer.
 
+#    ***** Forskellen mellem Precision og Recall:  ******
+
+# Precision:
+# Precision handler om, hvor præcise vores forudsigelser er.
+# Det fortæller os, hvor mange af de ting, modellen har forudsagt som positive,
+# der faktisk er positive.
+# Tænk på det som "hvor mange af de pletter, vi skød på, der ramte målet".
+
+# Formel:
+# Precision = (Antal rigtige positive forudsigelser) / (Alle positive forudsigelser)
+# Eksempel: Hvis vi forudsagde 10 ting som "blomster af en bestemt type",
+# men kun 7 af dem var korrekte, er precisionen 7/10 = 70%.
+
+# Recall:
+# Recall handler om, hvor godt modellen er til at finde ALLE de rigtige ting.
+# Det måler, hvor mange af de faktiske positive ting modellen korrekt har opdaget.
+# Tænk på det som "hvor mange af alle mål på banen, vi ramte".
+
+# Formel:
+# Recall = (Antal rigtige positive forudsigelser) / (Alle faktiske positive)
+# Eksempel: Hvis der er 20 blomster af en bestemt type, og vi korrekt fandt 15 af dem,
+# er recall 15/20 = 75%.
+
+# Sammenligning:
+# - Precision er vigtig, når vi vil være sikre på, at det, vi forudsiger som positivt,
+#   faktisk er korrekt (undgå falske alarmer).
+# - Recall er vigtig, når vi vil sikre, at vi finder ALLE positive ting,
+#   selv hvis vi laver nogle fejl (undgå at overse noget vigtigt).
+
+# Eksempel:
+# Hvis vi forudsiger, om en blomst er af typen "Setosa":
+# - Høj precision betyder, at næsten alle, vi siger er "Setosa", faktisk er det.
+# - Høj recall betyder, at vi fanger næsten alle "Setosa", selv hvis vi fejlagtigt
+#   inkluderer nogle, der ikke er "Setosa".
 
 
 # Importér nødvendige biblioteker
