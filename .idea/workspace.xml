@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c8fe36-6da8-4d76-ae3a-2ab9f99e9b90" name="Changes" comment="Update README.md">
-      <change afterPath="$PROJECT_DIR$/Predict_Iris_species_NN_001.py" afterDir="false" />
+    <list default="true" id="d4c8fe36-6da8-4d76-ae3a-2ab9f99e9b90" name="Changes" comment=" Logistic Regression med tekst">
+      <change afterPath="$PROJECT_DIR$/AnnotationCells.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnnotationCells.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generate_6_different_ML_data_for_each_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grafpapir-til-K_NN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Øvelse K-NN til Klassificering.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Øvelse K-NN til Klassificering.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Stub" />
         <option value="Python Script" />
       </list>
     </option>
@@ -43,11 +49,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.2. Praktisk Øvelse i Regression Huspriser.executor": "Run",
+    "Python.2. Praktisk Øvelse-Klassificering med Iris-datasættet.executor": "Run",
+    "Python.3. Øvelse K-NN til Klassificering.executor": "Run",
+    "Python.3. Øvelse Polynomisk Regression.executor": "Run",
+    "Python.4. Øvelse Hyperparameter Tuning.executor": "Run",
+    "Python.4. Øvelse Ridge og Lasso Regression.executor": "Run",
+    "Python.5. Evaluering Præcision og Recall.executor": "Run",
+    "Python.5. Evaluering Residualanalyse.executor": "Run",
+    "Python.6. Øvelse Logistic Regression.executor": "Run",
+    "Python.Generate_6_different_ML_data_for_each_method.executor": "Run",
     "Python.Predic_tIris_species.executor": "Run",
     "Python.Predic_tIris_species_001.executor": "Run",
     "Python.Predic_tIris_species_002.executor": "Run",
     "Python.Predic_tIris_species_003.executor": "Run",
     "Python.Predic_tIris_species_004.executor": "Run",
+    "Python.Predict_Iris_species_NN_001.executor": "Run",
+    "Python.Predict_Iris_species_NN_002.executor": "Run",
+    "Python.Predict_Iris_species_NN_003.executor": "Run",
+    "Python.grafpapir-til-K_NN.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -137,12 +157,153 @@
       <option name="project" value="LOCAL" />
       <updated>1736696790103</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1736697108179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736697108179</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1736697136982</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736697136982</updated>
+    </task>
+    <task id="LOCAL-00007" summary="neuralt network">
+      <option name="closed" value="true" />
+      <created>1736697830904</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736697830904</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Klassificeringsøvelse">
+      <option name="closed" value="true" />
+      <created>1736772772969</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736772772969</updated>
+    </task>
+    <task id="LOCAL-00009" summary="K-NN øvelse">
+      <option name="closed" value="true" />
+      <created>1736773040181</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736773040181</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Øvelser">
+      <option name="closed" value="true" />
+      <created>1736773804154</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736773804154</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Ridge og Lasso øvelse">
+      <option name="closed" value="true" />
+      <created>1736774561938</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736774561938</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Residualaanalyse">
+      <option name="closed" value="true" />
+      <created>1736774729567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736774729567</updated>
+    </task>
+    <task id="LOCAL-00013" summary="øvelse">
+      <option name="closed" value="true" />
+      <created>1736774850217</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736774850217</updated>
+    </task>
+    <task id="LOCAL-00014" summary="øvelse">
+      <option name="closed" value="true" />
+      <created>1736774879560</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736774879560</updated>
+    </task>
+    <task id="LOCAL-00015" summary="øvelse">
+      <option name="closed" value="true" />
+      <created>1736774904432</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736774904432</updated>
+    </task>
+    <task id="LOCAL-00016" summary=" Logistic Regression">
+      <option name="closed" value="true" />
+      <created>1736841799788</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736841799788</updated>
+    </task>
+    <task id="LOCAL-00017" summary=" Logistic Regression med tekst">
+      <option name="closed" value="true" />
+      <created>1736842075777</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1736842075777</updated>
+    </task>
+    <task id="LOCAL-00018" summary=" Logistic Regression med tekst">
+      <option name="closed" value="true" />
+      <created>1736842720112</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1736842720112</updated>
+    </task>
+    <task id="LOCAL-00019" summary=" Logistic Regression med tekst">
+      <option name="closed" value="true" />
+      <created>1736844966069</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736844966069</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version for education 4410h4dakp21" />
+    <MESSAGE value="nn model" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="neuralt network" />
+    <MESSAGE value="Klassificeringsøvelse" />
+    <MESSAGE value="K-NN øvelse" />
+    <MESSAGE value="Øvelser" />
+    <MESSAGE value="Ridge og Lasso øvelse" />
+    <MESSAGE value="Residualaanalyse" />
+    <MESSAGE value="øvelse" />
+    <MESSAGE value=" Logistic Regression" />
+    <MESSAGE value=" Logistic Regression med tekst" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Logistic Regression med tekst" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Predict_Iris_species_NN_002.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
