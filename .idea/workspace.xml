@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c8fe36-6da8-4d76-ae3a-2ab9f99e9b90" name="Changes" comment=" Logistic Regression med tekst">
-      <change afterPath="$PROJECT_DIR$/AnnotationCells.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnnotationCells.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generate_6_different_ML_data_for_each_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grafpapir-til-K_NN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+    <list default="true" id="d4c8fe36-6da8-4d76-ae3a-2ab9f99e9b90" name="Changes" comment="Last for course in Data Science">
+      <change afterPath="$PROJECT_DIR$/PredictFromAnnotationCellsModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Øvelse K-NN til Klassificering.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Øvelse K-NN til Klassificering.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +53,14 @@
     "Python.5. Evaluering Præcision og Recall.executor": "Run",
     "Python.5. Evaluering Residualanalyse.executor": "Run",
     "Python.6. Øvelse Logistic Regression.executor": "Run",
+    "Python.AnnotationCells.executor": "Run",
     "Python.Generate_6_different_ML_data_for_each_method.executor": "Run",
     "Python.Predic_tIris_species.executor": "Run",
     "Python.Predic_tIris_species_001.executor": "Run",
     "Python.Predic_tIris_species_002.executor": "Run",
     "Python.Predic_tIris_species_003.executor": "Run",
     "Python.Predic_tIris_species_004.executor": "Run",
+    "Python.PredictFromAnnotationCellsModel.executor": "Run",
     "Python.Predict_Iris_species_NN_001.executor": "Run",
     "Python.Predict_Iris_species_NN_002.executor": "Run",
     "Python.Predict_Iris_species_NN_003.executor": "Run",
@@ -277,7 +274,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736844966069</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="annotationCells">
+      <option name="closed" value="true" />
+      <created>1737034553194</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1737034553194</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Last for course in Data Science">
+      <option name="closed" value="true" />
+      <created>1737034666674</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1737034666674</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -293,7 +306,9 @@
     <MESSAGE value="øvelse" />
     <MESSAGE value=" Logistic Regression" />
     <MESSAGE value=" Logistic Regression med tekst" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Logistic Regression med tekst" />
+    <MESSAGE value="annotationCells" />
+    <MESSAGE value="Last for course in Data Science" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last for course in Data Science" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
